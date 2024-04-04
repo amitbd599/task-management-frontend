@@ -7,7 +7,6 @@ export const ProfileSlice = createSlice({
   },
   reducers: {
     SetProfile: (state, action) => {
-     
       state.value = action.payload;
     },
   },
